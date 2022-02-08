@@ -1,0 +1,34 @@
+/* основной цвет текста #757575 */
+/* вторичный цвет текста h2 h3 #212121 */
+/* акцент в цвете текста #FFFFFF  */
+/* цвет почты тел rgba(255, 255, 255, 0.6) */
+/* цвет синий #2196F3 */
+.body {
+  font-family: Roboto, sans-serif;
+}
+.site-nav,
+.nav-contacts {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.contacts-link {
+  color: #757575;
+}
+.site-nav .link:hover,
+.site-nav .link:focus,
+.contacts-link:hover,
+.contacts-link:focus {
+  color: #2196f3;
+}
+.site-nav > a {
+  color: #212121;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+.site-nav span {
+  color: #2196f3;
+}
