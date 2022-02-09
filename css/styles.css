@@ -1,6 +1,6 @@
 :root {
-  --primary-color: #757575;
-  --secondary-color: #212121;
+  --primary-color: #212121;
+  --secondary-color: #757575;
   --akcent-color: #2196f3;
 }
 .body {
@@ -16,10 +16,10 @@
   letter-spacing: 0.02em;
 }
 .site-nav .link {
-  color: var(--secondary-color);
+  color: var(--primary-color);
 }
 .contacts-link {
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
 .site-nav .link:hover,
 .site-nav .link:focus,
@@ -28,7 +28,7 @@
   color: var(--akcent-color);
 }
 .site-nav > a {
-  color: var(--secondary-color);
+  color: var(--primary-color);
   font-weight: bold;
   font-size: 26px;
   line-height: 1.2;
@@ -58,6 +58,7 @@
   letter-spacing: 0.06em;
   color: #ffffff;
   background-color: var(--akcent-color);
+  cursor: pointer;
 }
 .hero [type="button"]:hover,
 .hero [type="button"]:focus {
@@ -71,7 +72,6 @@
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--secondary-color);
 }
 .features h3 {
   font-weight: bold;
@@ -79,24 +79,24 @@
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--secondary-color);
 }
 .features p {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
 .our-team h3,
 .our-team p {
   font-size: 16px;
   line-height: 1.2;
   letter-spacing: 0.03em;
-  color: var(--primary-color);
+}
+.our-team p {
+  color: var(--secondary-color);
 }
 .our-team h3 {
   font-weight: 500;
-  color: var(--secondary-color);
 }
 /* footer */
 .footer {
@@ -143,8 +143,8 @@
   line-height: 1.6;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--secondary-color);
   background-color: #f5f4fa;
+  cursor: pointer;
 }
 .portfolio [type="button"]:hover,
 .portfolio [type="button"]:focus {
@@ -158,11 +158,10 @@
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: var(--secondary-color);
 }
 .portfolio p {
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
