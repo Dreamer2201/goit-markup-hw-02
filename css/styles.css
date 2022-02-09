@@ -5,21 +5,24 @@
 }
 .body {
   font-family: Roboto, sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.03em;
   color: var(--primary-color);
 }
 .site-nav,
 .nav-contacts,
 .site-nav .link {
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .site-nav .link {
   color: var(--primary-color);
 }
 .contacts-link {
   color: var(--secondary-color);
+  text-decoration: none;
 }
 .site-nav .link:hover,
 .site-nav .link:focus,
@@ -32,30 +35,41 @@
   font-weight: bold;
   font-size: 26px;
   line-height: 1.2;
-  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.nav-list a,
+.nav-contacts a {
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .site-nav span {
   color: var(--akcent-color);
 }
+#currentlink {
+  color: var(--akcent-color);
+}
 /* Hero */
+.hero {
+  color: #ffffff;
+  background-color: #2f303a;
+  text-align: center;
+  align-items: center;
+  letter-spacing: 0.06em;
+}
 .hero-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
-  text-align: center;
-  letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
-  background-color: #2f303a;
 }
 .hero [type="button"] {
   font-weight: bold;
   font-size: 16px;
   line-height: 1.9;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
   color: #ffffff;
   background-color: var(--akcent-color);
   cursor: pointer;
@@ -71,26 +85,26 @@
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 .features h3 {
   font-weight: bold;
-  font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .features p {
-  font-size: 14px;
   line-height: 1.7;
-  letter-spacing: 0.03em;
   color: var(--secondary-color);
+}
+.our-team {
+  background-color: #f5f4fa;
 }
 .our-team h3,
 .our-team p {
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
-  letter-spacing: 0.03em;
+  text-align: center;
 }
 .our-team p {
   color: var(--secondary-color);
@@ -107,23 +121,20 @@
   font-weight: bold;
   font-size: 26px;
   line-height: 1.2;
-  letter-spacing: 0.03em;
   color: #ffffff;
+  text-decoration: none;
 }
 .footer-link span {
   color: var(--akcent-color);
 }
 .footer {
-  font-size: 14px;
   line-height: 1.7;
-  letter-spacing: 0.03em;
 }
 .footer p,
 .footer-contacts a {
   font-style: normal;
-  font-size: 14px;
   line-height: 1.7;
-  letter-spacing: 0.03em;
+  text-decoration: none;
 }
 .footer p {
   color: #ffffff;
@@ -142,7 +153,6 @@
   font-size: 16px;
   line-height: 1.6;
   text-align: center;
-  letter-spacing: 0.03em;
   background-color: #f5f4fa;
   cursor: pointer;
 }
@@ -150,6 +160,13 @@
 .portfolio [type="button"]:focus {
   color: #ffffff;
   background-color: var(--akcent-color);
+}
+.portfolio .first {
+  color: #ffffff;
+  background-color: var(--akcent-color);
+}
+.current-second:active {
+  color: var(--akcent-color);
 }
 /* filter of works */
 
@@ -162,6 +179,5 @@
 .portfolio p {
   font-size: 16px;
   line-height: 1.9;
-  letter-spacing: 0.03em;
   color: var(--secondary-color);
 }
