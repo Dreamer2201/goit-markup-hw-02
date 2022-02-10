@@ -109,11 +109,13 @@
 .portfolio-menu {
   list-style: none;
 }
-
-/* Section features */
-.features > .section-title {
+.features > .section-title,
+.portfolio-title {
   display: none;
 }
+
+/* Section features */
+
 .feature-subtitle {
   font-weight: bold;
   font-size: 14px;
