@@ -11,7 +11,7 @@
   --primary-grey-bg: #f5f4fa;
   --akcent-color-text: #2196f3;
 }
-.body {
+body {
   font-family: Roboto, sans-serif;
   font-size: 14px;
   letter-spacing: 0.03em;
@@ -26,7 +26,7 @@
   font-family: Raleway;
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   color: var(--primary-light-text);
   text-decoration: none;
 }
@@ -37,7 +37,6 @@
 .header-mail,
 .header-tel {
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
@@ -149,6 +148,9 @@
 .footer {
   background-color: var(--dark-bg);
 }
+address {
+  font-style: inherit;
+}
 .footer-logo {
   font-family: Raleway;
   font-style: 400;
@@ -170,9 +172,7 @@
 }
 .footer-mail,
 .footer-tel {
-  font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
@@ -219,4 +219,7 @@
   line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--secondary-light-text);
+}
+.portfolio-link {
+  text-decoration: none;
 }
