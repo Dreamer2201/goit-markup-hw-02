@@ -36,7 +36,6 @@
 .header-it-link,
 .header-mail,
 .header-tel {
-  font-family: Roboto;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -78,7 +77,7 @@
   color: var(--primary-dark-text);
 }
 .hero-btn {
-  font-family: Roboto;
+  font-family: inherit;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.88;
@@ -164,9 +163,6 @@
   color: var(--akcent-color-text);
 }
 .footer-address {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -174,9 +170,6 @@
 }
 .footer-mail,
 .footer-tel {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -193,13 +186,14 @@
 
 /* Portfolio page */
 
-.portfolio-btn {
-  font-family: Roboto;
+.portfolio-btn > [type="button"] {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
   letter-spacing: 0.03em;
   color: var(--primary-light-text);
+  background-color: var(--primary-grey-bg);
 }
 .portfolio [type="button"]:hover,
 .portfolio [type="button"]:focus,
