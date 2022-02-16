@@ -22,6 +22,25 @@ body {
   letter-spacing: 0.02em;
   background-color: var(--primary-light-bg);
 }
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.header-list {
+  display: flex;
+  outline: 2px solid red;
+  padding-left: 0;
+}
+.header-it:not(:last-child) {
+  margin-right: 50px;
+}
+.main-nav {
+  display: flex;
+  align-items: center;
+}
 .link-logo {
   font-family: Raleway;
   font-weight: bold;
@@ -29,6 +48,7 @@ body {
   line-height: 1.19;
   color: var(--primary-light-text);
   text-decoration: none;
+  margin-right: 93px;
 }
 .link-logo span {
   color: var(--akcent-color-text);
@@ -42,8 +62,21 @@ body {
   text-decoration: none;
 }
 .header-it-link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
   color: var(--primary-light-text);
 }
+.nav-contacts {
+  display: flex;
+  outline: 2px solid green;
+  margin-left: auto;
+  padding-left: 0;
+}
+.nav-contacts .contacts-link + .contacts-link {
+  margin-left: 50px;
+}
+
 .header-mail,
 .header-tel {
   color: var(--secondary-light-text);
